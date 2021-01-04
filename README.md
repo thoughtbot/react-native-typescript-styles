@@ -96,5 +96,5 @@ specific styles: in this case, particular primary and neutral colors.
 Styles are then used as such:
 
 ```typescript
-color: Colors.primary.blue;
+color: Colors.primary.blue
 ```
