@@ -76,3 +76,9 @@ export const brand: Record<Brand, string> = {
   secondary: "#f03f0a",
 };
 ```
+
+## Example
+
+Check out the [ExampleComponent](https://github.com/thoughtbot/react-native-typescript-styles/blob/main/ExampleComponent.tsx).
+
+<img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="500"/>
