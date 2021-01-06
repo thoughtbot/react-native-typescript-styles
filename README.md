@@ -79,6 +79,10 @@ Check out the [ExampleComponent](https://github.com/thoughtbot/react-native-type
 
 <img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="500"/>
 
+## Style Guide
+
+[Style Guide](./STYLE_GUIDE.md)
+
 ## Philosophy
 
 This project is intended to establish a structure for organizing a design
