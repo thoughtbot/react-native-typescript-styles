@@ -19,6 +19,15 @@ export const layout: Record<Layout, number> = {
   x70: 58,
 }
 
+export const x5 = layout.x5
+export const x10 = layout.x10
+export const x20 = layout.x20
+export const x30 = layout.x30
+export const x40 = layout.x40
+export const x50 = layout.x50
+export const x60 = layout.x60
+export const x70 = layout.x70
+
 type Icons = "x10" | "x20" | "x30" | "x40"
 export const icons: Record<Icons, number> = {
   x10: 14,

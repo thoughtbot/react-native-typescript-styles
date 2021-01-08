@@ -1,7 +1,7 @@
 import { TextStyle } from "react-native"
 import { systemWeights } from "react-native-typography"
 
-type FontSize = "x10" | "x20" | "x30" | "x40" | "x50"
+type FontSize = "x10" | "x20" | "x30" | "x40" | "x50" | "x60"
 export const fontSize: Record<FontSize, TextStyle> = {
   x10: {
     fontSize: 13,
@@ -18,6 +18,9 @@ export const fontSize: Record<FontSize, TextStyle> = {
   x50: {
     fontSize: 32,
   },
+  x60: {
+    fontSize: 38,
+  },
 }
 
 type FontWeight = "regular" | "semibold" | "bold"
@@ -33,7 +36,7 @@ export const fontWeight: Record<FontWeight, TextStyle> = {
   },
 }
 
-type LineHeight = "x10" | "x20" | "x30" | "x40"
+type LineHeight = "x10" | "x20" | "x30" | "x40" | "x50" | "x60"
 export const lineHeight: Record<LineHeight, TextStyle> = {
   x10: {
     lineHeight: 12,
@@ -46,5 +49,47 @@ export const lineHeight: Record<LineHeight, TextStyle> = {
   },
   x40: {
     lineHeight: 26,
+  },
+  x50: {
+    lineHeight: 36,
+  },
+  x60: {
+    lineHeight: 48,
+  },
+}
+
+type Header = "x10" | "x20" | "x40" | "x50" | "x60"
+export const header: Record<Header, TextStyle> = {
+  x10: {
+    ...fontSize.x10,
+    ...lineHeight.x20,
+    ...fontWeight.bold,
+  },
+  x20: {
+    ...fontSize.x20,
+    ...lineHeight.x30,
+    ...fontWeight.semibold,
+  },
+  x40: {
+    ...fontSize.x40,
+    ...lineHeight.x40,
+    ...fontWeight.semibold,
+  },
+  x50: {
+    ...fontSize.x50,
+    ...lineHeight.x50,
+    ...fontWeight.bold,
+  },
+  x60: {
+    ...fontSize.x60,
+    ...lineHeight.x60,
+    ...fontWeight.bold,
+  },
+}
+
+type Body = "x10"
+export const body: Record<Body, TextStyle> = {
+  x10: {
+    ...fontSize.x10,
   },
 }
