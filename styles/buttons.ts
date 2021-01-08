@@ -12,7 +12,7 @@ export const bar: Record<Bar, ViewStyle> = {
     justifyContent: "center",
     padding: Sizing.layout.x30,
     borderRadius: Outlines.borderRadius.base,
-    backgroundColor: Colors.primary.s300,
+    backgroundColor: Colors.primary.brand,
   },
   secondary: {
     alignItems: "center",
@@ -33,7 +33,7 @@ export const barText: Record<BarText, TextStyle> = {
   secondary: {
     ...Typography.fontSize.x10,
     ...Typography.fontWeight.regular,
-    color: Colors.neutral.s100,
+    color: Colors.neutral.s500,
   },
 }
 
@@ -44,7 +44,7 @@ export const circular: Record<Circular, ViewStyle> = {
     width: Sizing.layout.x30,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: Colors.primary.s300,
+    backgroundColor: Colors.primary.brand,
     borderRadius: Outlines.borderRadius.max,
   },
 }
