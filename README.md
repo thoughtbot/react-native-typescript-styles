@@ -75,13 +75,13 @@ export const brand: Record<Brand, string> = {
 
 ## Example
 
-Check out the [ExampleComponent](https://github.com/thoughtbot/react-native-typescript-styles/blob/main/ExampleComponent.tsx).
+An example app is located in a separate repository: [RNStylingTemplate](https://github.com/thoughtbot/RNStylingTemplate).
 
-<img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="500"/>
+<img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="300"/>
 
 ## Style Guide
 
-[Style Guide](./STYLE_GUIDE.md)
+All style modules should follow the [Style Guide](./STYLE_GUIDE.md)
 
 ## Philosophy
 
@@ -102,3 +102,21 @@ Styles are then used as such:
 ```typescript
 color: Colors.primary.blue
 ```
+
+Read the blog post, ["React Native Styling: Structure for Style Organization"][blog-post]
+[blog-post]: https://thoughtbot.com/blog/structure-for-styling-in-react-native
+
+About thoughtbot
+----------------
+
+![thoughtbot](https://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
+
+react-native-typescript-styles is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+
+We love open source software!
+See [our other projects][community] or
+[hire us][hire] to design, develop, and grow your product.
+
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
