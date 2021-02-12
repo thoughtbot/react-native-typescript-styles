@@ -104,6 +104,7 @@ color: Colors.primary.blue
 ```
 
 Read the blog post, ["React Native Styling: Structure for Style Organization"][blog-post]
+
 [blog-post]: https://thoughtbot.com/blog/structure-for-styling-in-react-native
 
 About thoughtbot
