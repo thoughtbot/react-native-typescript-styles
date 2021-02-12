@@ -22,6 +22,12 @@ borderWidth: Outlines.borderWidth.thin
 
 1. Place the `styles` directory in your project.
 
+```
+curl -L https://github.com/thoughtbot/react-native-typescript-styles/raw/main/styles.tar.gz -o styles.tar.gz
+tar -xvzf styles.tar.gz
+rm styles.tar.gz
+```
+
 2. Install [react-native-typography](https://github.com/hectahertz/react-native-typography).
    ```
    yarn add react-native-typography
