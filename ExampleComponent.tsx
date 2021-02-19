@@ -1,7 +1,7 @@
-import React from 'react';
-import {SafeAreaView, StyleSheet, View, Text, Pressable} from 'react-native';
+import React from "react"
+import { SafeAreaView, StyleSheet, View, Text, Pressable } from "react-native"
 
-import {Sizing, Typography, Outlines, Colors, Buttons} from './styles';
+import { Sizing, Typography, Outlines, Colors, Buttons } from "./styles"
 
 const ExampleComponent = () => {
   return (
@@ -41,41 +41,36 @@ const ExampleComponent = () => {
         </Pressable>
       </View>
     </SafeAreaView>
-  );
-};
+  )
+}
 
 const style = StyleSheet.create({
   container: {
-    padding: Sizing.layout.x20,
+    padding: Sizing.x20,
   },
   headerContainer: {
-    marginBottom: Sizing.layout.x20,
-    paddingBottom: Sizing.layout.x20,
-    borderBottomWidth: Outlines.borderWidth.thin,
-    borderColor: Colors.neutral.gray6,
+    marginBottom: Sizing.x20,
+    paddingBottom: Sizing.x20,
+    borderBottomWidth: Outlines.borderWidth.hairline,
+    borderColor: Colors.neutral.s200,
   },
   headerText: {
-    ...Typography.fontSize.x40,
-    ...Typography.fontWeight.semibold,
-    marginBottom: Sizing.layout.x10,
+    ...Typography.header.x40,
+    marginBottom: Sizing.x10,
   },
   subheaderText: {
-    ...Typography.fontSize.x20,
-    ...Typography.fontWeight.regular,
+    ...Typography.subheader.x30,
   },
   bodyContainer: {
-    marginBottom: Sizing.layout.x20,
+    marginBottom: Sizing.x20,
   },
   bodyText: {
-    ...Typography.fontSize.x20,
-    ...Typography.fontWeight.regular,
-    ...Typography.lineHeight.x30,
-    color: Colors.neutral.gray,
-    marginBottom: Sizing.layout.x20,
+    ...Typography.body.x20,
+    marginBottom: Sizing.x20,
   },
   button: {
     ...Buttons.bar.primary,
-    marginBottom: Sizing.layout.x10,
+    marginBottom: Sizing.x10,
   },
   buttonText: {
     ...Buttons.barText.primary,
@@ -86,6 +81,6 @@ const style = StyleSheet.create({
   secondaryButtonText: {
     ...Buttons.barText.secondary,
   },
-});
+})
 
-export default ExampleComponent;
+export default ExampleComponent
