@@ -20,12 +20,26 @@ borderWidth: Outlines.borderWidth.thin
 
 ## Setup
 
-1. Place the `styles` directory in your project.
+1. Add the CLI to your global packages
+```
+yarn global add @thoughtbot/react-native-typescript-styles
 
-2. Install [react-native-typography](https://github.com/hectahertz/react-native-typography).
-   ```
-   yarn add react-native-typography
-   ```
+# or
+
+npm install -g @thoughtbot/react-native-typescript-styles
+```
+
+2. Add the styles to your project using the CLI
+
+```
+rnts
+```
+
+3. Add the dependency [react-native-typography](https://github.com/hectahertz/react-native-typography) to your project
+
+```
+yarn add react-native-typography
+```
 
 > The Typography module uses this library as it makes it easy to use the default
 > system font families and weights on both iOS and Android.
