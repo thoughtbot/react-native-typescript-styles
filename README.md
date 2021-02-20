@@ -16,6 +16,7 @@ projects.
 1. Add the CLI to your global packages
 ```
 // yarn
+
 yarn global add @thoughtbot/react-native-typescript-styles
 ```
 
@@ -23,6 +24,7 @@ or
 
 ```
 // npm
+
 npm install -g @thoughtbot/react-native-typescript-styles
 ```
 2. Add the styles to your project using the CLI
