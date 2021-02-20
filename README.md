@@ -10,22 +10,18 @@ projects and work efficiently.
 This project is a starter framework for organizing styles in new React Native
 projects.
 
-#### How it Looks
-
-```typescript
-color: Colors.primary.blue,
-height: Sizing.layout.x20,
-borderWidth: Outlines.borderWidth.thin
-```
-
 ## Setup
 
 1. Add the CLI to your global packages
 ```
+// yarn
 yarn global add @thoughtbot/react-native-typescript-styles
+```
 
-# or
+or
 
+```
+// npm
 npm install -g @thoughtbot/react-native-typescript-styles
 ```
 
