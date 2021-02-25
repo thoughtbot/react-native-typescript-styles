@@ -1,7 +1,8 @@
 # react-native-typescript-styles
 
+
 Kick-start your new React Native TypeScript project with simple, organized
-styles.
+styles and have less churn in your style files.
 
 React Native has no standard framework for structuring styles. This results in
 each project using a unique structure, which makes it harder to switch between
@@ -12,8 +13,8 @@ projects.
 
 ## 💻 Setup
 
-
 1. Add the CLI to your global packages
+
 ```
 // yarn
 
@@ -56,7 +57,7 @@ import { Buttons, Colors, Outlines, Sizing, Typography } from "../styles";
 ```typescript
 const style = StyleSheet.create({
   header: {
-    paddingBottom: Sizing.layout.x20,
+    paddingBottom: Sizing.x20,
     borderBottomWidth: Outlines.borderWidth.thin,
     borderColor: Colors.neutral.gray6,
   },
