@@ -1,0 +1,28 @@
+{
+  "name": "@thoughtbot/react-native-typescript-styles",
+  "version": "0.0.3",
+  "description": "CLI utility for adding the styles from react-native-typescript-styles to your project.",
+  "main": "index.js",
+  "bin": {
+    "rnts": "./index.js"
+  },
+  "repository": "https://github.com/thoughtbot/react-native-styles.git",
+  "authors": [
+    {
+      "name": "Devin Jameson",
+      "social": "@devinjameson",
+      "email": "devin@thoughtbot.com",
+      "url": "https://devinjameson.com"
+    },
+    {
+      "name": "John Schoeman",
+      "social": "@j_schoeman",
+      "email": "johnschoeman@thoughtbot.com",
+      "url": "https://john.horse"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  }
+}

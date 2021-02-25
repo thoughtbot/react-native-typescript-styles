@@ -11,28 +11,40 @@ projects and work efficiently.
 This project is a starter framework for organizing styles in new React Native
 projects.
 
-#### How it Looks
+## 💻 Setup
 
-```typescript
-color: Colors.primary.blue,
-height: Sizing.x20,
-borderWidth: Outlines.borderWidth.thin
+1. Add the CLI to your global packages
+
+```
+// yarn
+
+yarn global add @thoughtbot/react-native-typescript-styles
 ```
 
-## Setup
+or
 
-1. Place the `styles` directory in your project.
+```
+// npm
 
-2. Install [react-native-typography](https://github.com/hectahertz/react-native-typography).
-   ```
-   yarn add react-native-typography
-   ```
+npm install -g @thoughtbot/react-native-typescript-styles
+```
+2. Add the styles to your project using the CLI
+
+```
+rnts
+```
+
+3. Add the dependency [react-native-typography](https://github.com/hectahertz/react-native-typography) to your project
+
+```
+yarn add react-native-typography
+```
 
 > The Typography module uses this library as it makes it easy to use the default
 > system font families and weights on both iOS and Android.
 
 
-## Usage
+## 🎨 Usage
 
 1. Import the styles modules in your view components
 
@@ -74,17 +86,13 @@ export const brand: Record<Brand, string> = {
 };
 ```
 
-## Example
+## 🧪 Example
 
 An example app is located in a separate repository: [RNStylingTemplate](https://github.com/thoughtbot/RNStylingTemplate).
 
 <img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="300"/>
 
-## Style Guide
-
-All style modules should follow the [Style Guide](./STYLE_GUIDE.md)
-
-## Philosophy
+## 📚 Philosophy
 
 This project is intended to establish a structure for organizing a design
 system. Therefore, the styles themselves are not opinionated in terms of visual
@@ -104,9 +112,13 @@ Styles are then used as such:
 color: Colors.primary.blue
 ```
 
-Read the blog post, ["React Native Styling: Structure for Style Organization"][blog-post]
+Style guide: [Style Guide][style-guide]
 
+Blog post: ["React Native Styling: Structure for Style Organization"][blog-post]
+
+[style-guide]: ./STYLE_GUIDE.md
 [blog-post]: https://thoughtbot.com/blog/structure-for-styling-in-react-native
+
 
 About thoughtbot
 ----------------
