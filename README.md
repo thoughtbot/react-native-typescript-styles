@@ -89,7 +89,7 @@ export const brand: Record<Brand, string> = {
 
 ## 🧪 Example
 
-An example app is located in a separate repository: [RNStylingTemplate](https://github.com/thoughtbot/RNStylingTemplate).
+An example app is located in a separate repository: [react-native-typescript-styles-example](https://github.com/thoughtbot/react-native-typescript-styles-example).
 
 <img src="https://github.com/thoughtbot/react-native-typescript-styles/blob/main/image.png" alt="An example of a view in React Native that uses this style library" width="300"/>
 
