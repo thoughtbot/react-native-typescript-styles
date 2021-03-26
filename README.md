@@ -4,9 +4,10 @@
 Kick-start your new React Native TypeScript project with simple, organized
 styles and have less churn in your style files.
 
-React Native has no standard framework for structuring styles. This results in
-each project using a unique structure, which makes it harder to switch between
-projects and work efficiently.
+Every React Native project uses styles, but React Native itself is not
+opinionated in how to organize them. This puts the burden on the developer to
+decide on and implement a method of organization, which takes time and effort
+that you could be spending on feature development.
 
 This project is a starter framework for organizing styles in new React Native
 projects.
