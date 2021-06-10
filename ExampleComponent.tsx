@@ -55,17 +55,17 @@ const style = StyleSheet.create({
     borderColor: Colors.neutral.s200,
   },
   headerText: {
-    ...Typography.header.x40,
+    ...Typography.bold.x40,
     marginBottom: Sizing.x10,
   },
   subheaderText: {
-    ...Typography.subheader.x30,
+    ...Typography.semibold.x30,
   },
   bodyContainer: {
     marginBottom: Sizing.x20,
   },
   bodyText: {
-    ...Typography.body.x20,
+    ...Typography.regular.x20,
     marginBottom: Sizing.x20,
   },
   button: {

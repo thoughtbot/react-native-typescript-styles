@@ -63,8 +63,7 @@ const style = StyleSheet.create({
     borderColor: Colors.neutral.gray6,
   },
   headerText: {
-    ...Typography.fontSize.x50,
-    ...Typography.fontWeight.semibold,
+    ...Typography.bold.x50,
   },
   button: {
     ...Buttons.bar.primary,
