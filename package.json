@@ -1,6 +1,6 @@
 {
   "name": "@thoughtbot/react-native-typescript-styles",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "CLI utility for adding the styles from react-native-typescript-styles to your project.",
   "main": "index.js",
   "bin": {
